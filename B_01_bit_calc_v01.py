@@ -8,10 +8,21 @@ def instructions():
         statement_generator("Instructions", "-")
 
         print('''
-       Instructions go here.
-        - instruction 1
-        _ instruction 2
-        - etc
+      To use this program, simply enter an integer between 1 and 200 (inclusive). The program will show the factors of your chosen integer
+      
+      It will also tell you if your chosen number ...
+      - is unity (1) as it only has one factor
+      - is a prime number (i.e. it has two factors)
+      - is a perfect square
+      
+      To exit the program, please type 'xxx'
+      
+      Here is what to do:
+      
+      1) Enter a file type (integer, image, or text)
+      2) put in an integer between 1 - 200
+      3) Enter a file type 
+      4) Enter a width and height 
         ''')
 
 # asks user for file type (integer / image / text / xxx)
